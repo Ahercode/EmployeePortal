@@ -1,6 +1,6 @@
-var xValues = ["January", "February ", "March", "April", "May", "June", "Jully", "August", "September", "October", "November"];
-var yValues = [55, 49, 44, 24, 15];
-var barColors = ["red", "green", "blue", "orange", "brown"];
+var xValues = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+var yValues = [100, 90, 80, 55, 49, 75, 24, 15, 68, 30, 93, 85];
+var barColors = ["red", "green", "blue", "orange", "brown", "pink", "lightgreen", "#f2f2f2", "#F8B400", "#125B50", "#FAF5E4", "#0F3460"];
 
 new Chart("myChart", {
     type: "bar",
@@ -15,7 +15,7 @@ new Chart("myChart", {
 });
 
 new Chart("myChart1", {
-    type: "pie",
+    type: "doughnut",
     data: {
         // labels: xValues,
         datasets: [{

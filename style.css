@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -14,29 +15,46 @@ body {
 
 .top {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     background-color: white;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.04);
 }
 
 .profile {
-    width: 20%;
+    width: 20.25%;
     background-color: rgb(0, 183, 255);
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #f2f2f2;
+    /* flex-direction: column; */
+}
+
+.profile>ul>li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #FAF5E4;
+    line-height: 1.5;
+    margin-left: 10px;
 }
 
 img {
-    height: 130px;
-    border-radius: 50%;
+    height: 90px;
+    /* border-radius: 100%; */
     text-align: center;
 }
 
-.details {
+
+/* .details {
     width: 15%;
-}
+    background-color: rgb(0, 183, 255);
+} */
+
+
+/* .details>ul>li {
+    display: flex;
+    align-items: center;
+    color: #f2f2f2;
+} */
 
 li {
     text-decoration: none;
@@ -44,26 +62,27 @@ li {
 }
 
 .charts {
-    width: 60%;
+    width: 80%;
     display: flex;
-    padding: 15px;
+    padding: 15px 15px 15px 0px;
 }
 
 .chart1 {
-    background-color: lightgray;
-    width: 45%;
+    background-color: #fffff3;
+    width: 30%;
     height: 190px;
+    margin-left: 220px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(69, 73, 75);
+    border: 1px solid rgb(133, 134, 134);
 }
 
 .chart2 {
     margin-left: 30px;
     height: 190px;
-    width: 45%;
-    background-color: lightgray;
+    width: 30%;
+    background-color: #fffff3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,18 +102,20 @@ li {
 }
 
 .side>ul>li {
+    font-family: 'Poppins', sans-serif;
     text-align: left;
-    padding: 10px 10px 10px 10px;
-    /* margin: 5px 0 5px 0; */
+    padding: 10px 10px 10px 40px;
+    border-bottom: 1px solid #3b458f;
     color: #f2f2f2;
 }
 
 .side>ul>li:nth-child(1) {
-    background-color: rgba(69, 131, 152, 0.349);
+    background-color: #3b458f;
 }
 
 .side>ul>li:hover {
-    background-color: rgba(69, 131, 152, 0.349);
+    /* background-color: rgba(69, 131, 152, 0.349); */
+    background-color: #3b458f;
 }
 
 a {
