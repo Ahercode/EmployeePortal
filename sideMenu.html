@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Ahercode</title>
+</head>
+
+<body>
+    <!-- Side navigation -->
+    <div class="sidenav">
+        <div class="profile"><img src="images/user.png" alt="">
+            <ul>
+                <li>#ENP120092</li>
+                <li>Mr. Kofi Mensah</li>
+                <li>kofimensah@enp.com</li>
+                <li>Operations Manager</li>
+            </ul>
+        </div>
+        <div class="sidemenu">
+            <ul>
+                <!-- This are the menu items -->
+                <li>
+                    <a href="">Appraisal</a>
+                </li>
+                <li><a href="">Leave</a></li>
+                <li>
+                    <a href="">Disciplinary</a>
+                </li>
+                <li>
+                    <a href="">Timesheet</a>
+                </li>
+                <li>
+                    <a href="">Medical</a>
+                </li>
+                <li>
+                    <a href="">Settings</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="main">
+        <div class="charts">
+            <div class="chart1">
+                <canvas id="myChart" style="width:100%; max-width:400px"></canvas>
+
+            </div>
+            <div class="chart2">
+                <canvas id="myChart1" style="width:100%; max-width:400px"></canvas>
+            </div>
+        </div>
+        <div class="calender">
+
+            <iframe src="https://calendar.google.com/calendar/embed?src=28ff2a2d93693a564bdc1248dc51b4d0edc7c1682c2fbe0ce450fb828aa0aa1f%40group.calendar.google.com&ctz=Africa%2FAbidjan" style="border: 0" width="800" height="450" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
